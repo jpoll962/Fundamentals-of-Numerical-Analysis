@@ -17,11 +17,10 @@
 // end
 ///////////////////////////////////////////////
 
-#include <cstdio>
 #include <iostream>
 #include "macEps.h"
 
 int main()
 {
-	sMacEps();
+	sMacEps(); //Calls the sMacEps function found in sMacEps.cpp, connected to this file through macEps.h
 }

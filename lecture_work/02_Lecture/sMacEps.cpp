@@ -17,23 +17,25 @@
 // end
 ///////////////////////////////////////////////
 
-#include <cstdio>
 #include <iostream>
-#include "macEps.h"
+#include "macEps.h" //This header contains two functions sMacEps() and dMacEps()
 
 float sMacEps()
 {
-	float one = 1.0;
-	float eps = 1.0;
+	float one = 1.0;	//One
+	float eps = 1.0;	//Epsilon
 
+	//For Loop to calculate the Machine Epsilon
 	for (int i = 1; i < 1000; i++)
 	{
 		float diff = one - (one + eps);
+		//Prints out Diff and Eps through each loop iteration
 		std::cout << "Diff = " << diff << std::endl;
 		std::cout << "Eps = " << eps << std::endl;
 
+		//This if statement checks if diff == 0, returning diff it true and moving along if false
 		if (diff == 0.0) return diff;
 		eps = 0.5 * eps;
 	}
-	return 0;
+	return 0; //This ends the function
 }

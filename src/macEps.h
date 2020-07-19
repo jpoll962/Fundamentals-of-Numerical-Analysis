@@ -17,11 +17,12 @@
 //	eps = eps / 2;
 // end
 ///////////////////////////////////////////////////////////////////
-//#pragma once
+
+#pragma once
 #ifndef MACEPS_H
 #define MACEPS_H
 
-float sMacEps();
-double dMacEps();
+float sMacEps(); //Single Precision Machine Epsilon Function
+double dMacEps(); //Double Precision Machine Epsilon Function
 
 #endif /*MACEPS_H*/

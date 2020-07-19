@@ -11,9 +11,8 @@
 ///////////////////////////////////////////////////////////////////
 
 #include <iostream>
-#include <cstdio>
 #include <cmath>
-#include "absErr.h" //Self-created Error header containing Absolute Error and Relative Error Functions
+#include "error.h" //Self-created Error header containing Absolute Error and Relative Error Functions
 
 double absErr(double exVal, double apprVal)
 {

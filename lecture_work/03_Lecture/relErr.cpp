@@ -11,9 +11,8 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 #include <iostream>
-#include <cstdio>
 #include <cmath>
-#include "relErr.h" //Self-created Error header containing Absolute Error and Relative Error Functions
+#include "error.h" //Self-created Error header containing Absolute Error and Relative Error Functions
 
 double relErr(double exVal, double apprVal)
 {

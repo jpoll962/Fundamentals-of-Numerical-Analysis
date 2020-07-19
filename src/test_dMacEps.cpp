@@ -17,11 +17,10 @@
 // end
 ///////////////////////////////////////////////
 
-#include <cstdio>
 #include <iostream>
 #include "macEps.h"
 
 int main()
 {
-	dMacEps();
+	dMacEps(); //Calls the dMacEps function found in dMacEps.cpp, connected to this file through macEps.h
 }
