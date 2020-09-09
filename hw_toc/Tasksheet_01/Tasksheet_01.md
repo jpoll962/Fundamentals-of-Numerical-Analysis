@@ -2,6 +2,7 @@
 ## Task 1:
   I emailed Professor Koebbe to notify him that I will attend his Office Hours on Sept. 9th, 2020 to cover our
   required appointment.
+  * Update: I met with Professor Koebbe via Zoom. (9/9/2020_13:12)
 
 ## Task 2:
   I emailed Professor Koebbe to notify him that my Github account can be found at the following link:
