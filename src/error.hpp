@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
-//Name: Relative Error and Absolute Error (error.h)
+//Name: Relative Error and Absolute Error (error.hpp)
 //Author: Joe Pollock
 //Description: This  header file contains the functions for calculating 
 // Relative Error and Absolute Error. Code to test these function is at the bottom.
@@ -10,19 +10,19 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 #pragma once
-#ifndef ERROR_H
-#define ERROR_H
+#ifndef ERROR_HPP
+#define ERROR_HPP
 
 double absErr(double exVal, double apprVal); //Absolute Error Function
 double relErr(double exVal, double apprVal); //Relative Error Function
 
-#endif /*ERROR_H*/
+#endif /*ERROR_HPP*/
 
 /*****Simple code to test the relErr and absErr functions
  * #include <iostream>
  * #include <cstdio>
  * #include <cmath>
- * #include "error.h" //Self-created Error header containing Absolute Error and Relative Error Functions
+ * #include "error.hpp" //Self-created Error header containing Absolute Error and Relative Error Functions
  *
  * int main()
  * {
