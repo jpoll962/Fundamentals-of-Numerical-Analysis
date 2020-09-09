@@ -1,4 +1,4 @@
-# Solution for Tasksheet 1
+# Solutions for Tasksheet 1
 ## Task 1:
   I emailed Professor Koebbe to notify him that I will attend his Office Hours on Sept. 9th, 2020 to cover our
   required appointment.
