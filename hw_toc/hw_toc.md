@@ -1,4 +1,4 @@
-## MATH4610 Table of Contents for Tasksheets
+## MATH4610 Table of Contents
 
   | Tasksheets/Homework | Link to Tasksheet |
   | ------------------- | :---------------: |
