@@ -1,5 +1,5 @@
 /////////////////////////////////////////////////////////////////
-//Name: Machine Epsilon Calculator (macEps.h)
+//Name: Machine Epsilon Calculator (macEps.hpp)
 //Author: Joe Pollock
 //Description: Code created for MATH4610 at USU to
 // compute Single Precision and Double Precision Machine Epsilon.
@@ -19,10 +19,10 @@
 ///////////////////////////////////////////////////////////////////
 
 #pragma once
-#ifndef MACEPS_H
-#define MACEPS_H
+#ifndef MACEPS_HPP
+#define MACEPS_HPP
 
 float sMacEps(); //Single Precision Machine Epsilon Function
 double dMacEps(); //Double Precision Machine Epsilon Function
 
-#endif /*MACEPS_H*/
+#endif /*MACEPS_HPP*/
