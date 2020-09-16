@@ -7,6 +7,8 @@
 ## Task 2:
   I emailed Professor Koebbe to notify him that my Github account can be found at the following link:
   [https://github.com/jpoll962](https://github.com/jpoll962)
+  
+  A Version formatted with Jekyll can be found at [https://jpoll962.github.io/math4610](https://jpoll962.github.io/math4610)
 
 ## Task 3:
   My math4610 has been created as a private repository with Professor Koebbe as a collaborator. The repository
