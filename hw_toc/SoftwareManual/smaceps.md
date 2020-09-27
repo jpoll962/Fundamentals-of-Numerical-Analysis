@@ -1,6 +1,4 @@
-# MATH4610 - Fundamentals of Computational Mathematics Software Manual
-
-**Routine Name:**           smaceps
+**Routine Name:** smaceps
 
 **Author:** Joe Pollock
 
@@ -63,4 +61,4 @@ float sMacEps()
 	return 0; //This ends the function
 }
 
-**Last Modified:** July/2020
+**Last Modified:** September/2020
