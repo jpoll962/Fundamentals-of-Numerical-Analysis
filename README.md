@@ -5,7 +5,7 @@ Throughout this course, I will be using the Windows Subsystem for Linux (WSL) wi
 use Visual Studio and Visual Studio Code as a text editor for my code.
 
 ## Links
-* [Homework Table of Contents](https://github.com/jpoll962/math4610/blob/master/hw_toc/hw_toc.md)
-* [Software Manual](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/SoftwareManual.md)
+* [Homework: Table of Contents](https://github.com/jpoll962/math4610/blob/master/hw_toc/hw_toc.md)
+* [Software Manual: Table of Contents](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/SoftwareManual_ToC.md)
 * [Lecture Work](https://github.com/jpoll962/math4610/blob/master/lecture_work/lecture_work.md)
 * [Basic Git Commands](https://github.com/jpoll962/math4610/blob/master/How_To_Git.txt)
