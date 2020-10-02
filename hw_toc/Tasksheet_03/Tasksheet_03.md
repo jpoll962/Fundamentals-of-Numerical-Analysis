@@ -34,12 +34,11 @@ The Exact Value = 4.1614683654714241e-01
 It is noticeable that the second derivative approximation is second order accurate due to the greater slope. From the log-log plot of the error shown in Task 1, it is apparent that the approximation begins to fail due to precision around the 8th iteration. C++ had difficulties (with
 no fix I could find) when it came to raising 10 to the power of -6, -7, -11, -13, and -17. Using pow(x,y) vs. typing it in directly did not help.
 
+The log-log plot graph is included as an image file in the Tasksheet_03 subdirectory. The code is in Python. I could not find a way to do it using C++.
+
 ### Task 3:
 
-I have created and compiled single and double machine epsilon code to be found in the tasksheet_03 subdirectory.  
-The results are:
-
-
+I have created and compiled single and double machine epsilon code to be found in the tasksheet_03 subdirectory with test code.
 
 ### Task 4:
 My Software Manual was created so it was only necessary that I make some small edits. I created the [Software Manual's Table of Contents](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/SoftwareManual_ToC.md). Then I moved my already created smaceps content into a smaceps.md file. Afterward, I added the link to smaceps.md to the Software Manual's Table of Contents.
