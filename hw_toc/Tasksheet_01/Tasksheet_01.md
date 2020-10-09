@@ -22,12 +22,12 @@
 ## Task 5:
   I emailed Professor Koebbe to notify him that my Homework Table of Contents (hw_toc) can be found at the
   following link:
-  [https://github.com/jpoll962/math4610/hw_toc](https://github.com/jpoll962/math4610/hw_toc)
+  [https://github.com/jpoll962/math4610/blob/master/hw_toc/hw_toc.md](https://github.com/jpoll962/math4610/blob/master/hw_toc/hw_toc.md)
   
 ## Task 6:
   I learned from searching the internet about Version Control Systems (VCS) that there are tons of options to 
-  control your file system [(Wikipedia)](https://en.wikipedia.org/wiki/List_of_version-control_software). In
+  control your file system [(https://en.wikipedia.org/wiki/List_of_version-control_software)](https://en.wikipedia.org/wiki/List_of_version-control_software). In
   addition, I learned that VCS are important to maintain different versions of the same copy to be able to
   have a backup of files when completing projects. VCS is huge for project based assignments. People can
   work on a file locally, submit it to a server, then someone else can pull that file from the server to work on
-  that file on their own local computer. This streamlines team-based projects. [(Atlassin)](https://www.atlassian.com/git/tutorials/what-is-version-control)
+  that file on their own local computer. This streamlines team-based projects. [(https://www.atlassian.com/git/tutorials/what-is-version-control)](https://www.atlassian.com/git/tutorials/what-is-version-control)
