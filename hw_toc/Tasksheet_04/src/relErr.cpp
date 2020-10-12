@@ -2,7 +2,7 @@
 //Name: Relative Error (relErr.cpp)
 //Author: Joe Pollock
 //Description: This file contains the function for calculating 
-// Relative Error. Code to test this file is in error.h
+// Relative Error. Code to test this file is in error.hpp
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 //Pseudo-Code:
 // Variables: Relative Error, Exact Value, and Approximate Value.
@@ -12,7 +12,7 @@
 
 #include <iostream>
 #include <cmath>
-#include "error.h" //Self-created Error header containing Absolute Error and Relative Error Functions
+#include "error.hpp" //Self-created Error header containing Absolute Error and Relative Error Functions
 
 double relErr(double exVal, double apprVal)
 {
@@ -23,7 +23,7 @@ double relErr(double exVal, double apprVal)
 
 	// The following code is used to verify that the coder inserted the right numbers for exVal and apprVal
 	// The code then prints the resulting calculation as well
-	std::cout << "using the Approximate Value: " << apprVal << std::endl;
+	std::cout << "Using the Approximate Value: " << apprVal << std::endl;
 	std::cout << "Using the Exact Value: " << exVal << std::endl << std::endl;
 
 	std::cout << "The Relative Error is: " << relErr << std::endl;

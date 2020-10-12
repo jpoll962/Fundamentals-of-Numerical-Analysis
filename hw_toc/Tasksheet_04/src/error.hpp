@@ -19,21 +19,18 @@ double relErr(double exVal, double apprVal); //Relative Error Function
 #endif /*ERROR_HPP*/
 
 /*****Simple code to test the relErr and absErr functions
- * #include <iostream>
- * #include <cstdio>
- * #include <cmath>
- * #include "error.hpp" //Self-created Error header containing Absolute Error and Relative Error Functions
+ * #include "error.hpp" //Self-created error header containing Absolute Error and Relative Error Functions
  *
  * int main()
  * {
- *	double x, y;
+ *	double x, y; //x is the exact value; y is the approximate value;
  *
- * 	std::cout << "Approximate Value? ";
- * 	std::cin >> y;
- *
- * 	std::cout << "Exact Value? ";
+ *  std::cout << "Exact Value? ";
  * 	std::cin >> x;
  * 	std::cout << std::endl;
+ * 
+ * 	std::cout << "Approximate Value? ";
+ * 	std::cin >> y;
  *
  * 	absErr(x, y);
  * 	relErr(x, y);
