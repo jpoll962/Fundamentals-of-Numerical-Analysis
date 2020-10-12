@@ -29,12 +29,16 @@ The Exact Value = 4.1614683654714241e-01
 |  17  | 1.0000000000000001e-15 | 2.7755575615628912e+14 | 2.7755575615628872e+14 |
 |  18  | 9.9999999999999998e-17 | 0.0000000000000000e+00 | 4.1614683654714241e-01 |
 
+The Second-Order Accuracy is easiest identified after the h=0.5, so we shall see with h=1e-01 to h=1e-02, the error goes from appr. 0.415800 to appr. 0.4161434. If the approximation is second-order accurate, then the refinement by a degree of 10, like shown, will result in an error reduction by the factor of 10^2 (100).
+
+( (0.4161434)/(0.415800) ) * 100 = appr. 100. Proven.
+
 ### Task 2:
 
 It is noticeable that the second derivative approximation is second order accurate due to the greater slope. From the log-log plot of the error shown in Task 1, it is apparent that the approximation begins to fail due to precision around the 8th iteration. C++ had difficulties (with
 no fix I could find) when it came to raising 10 to the power of -6, -7, -11, -13, and -17. Using pow(x,y) vs. typing it in directly did not help.
 
-The log-log plot graph code is included in the Tasksheet_03 subdirectory to produce the graph. The code is in Python. I could not find a way to do it using C++.
+The log-log plot graph is included in the Tasksheet_03 subdirectory to produce the graph. The code is in Python.
 
 ### Task 3:
 
