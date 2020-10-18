@@ -1,4 +1,4 @@
-**Routine Name:** smaceps
+**Routine Name:** sMacEps
 
 **Author:** Joe Pollock
 
