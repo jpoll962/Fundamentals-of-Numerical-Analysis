@@ -6,11 +6,12 @@
 
 For example,
 
-    g++ sMacEps.cpp
+    g++ sMacEps.cpp test_sMacEps.cpp
 
-will produce an executable **a.exe** that can be executed with the command **./a.exe**. If you want a different name, the following will accomplish this:
+will produce an executable **a.exe** that can be executed with the command **./a.exe**. If you want a different name, the following
+will name the executable sMachineEpsilon:
 
-    g++ sMacEps.cpp -o sMachineEpsilon
+    g++ sMacEps.cpp test_sMacEps.cpp -o sMachineEpsilon
 
 **Description/Purpose:** This routine will compute the single precision value for the machine epsilon or the number of digits
 in the representation of real numbers in single precision. This is a routine for analyzing the behavior of any computer. This
@@ -28,18 +29,30 @@ The routine has two arguments needed to return the values of the precision in te
 represented. Since the code is written in terms of a C++ subroutine, the values of the machine epsilon and
 the power of two that gives the machine epsilon.
 
-Output from the lines above:
+Output from the commands above result in:
 
-      24   5.96046448E-08
+When diff = 0, Eps = 5.96046448E-08
 
-The first value (24) is the number of binary digits that define the machine epsilon and the second is related to the
-decimal version of the same value. The number of decimal digits that can be represented is roughly eight (E-08 on the
-end of the second value).
+Diff is the variable to determine when Eps has reached the smallest number possible for this level of precision. Eps is the Machine Epsilon
+for the Machine being used. The number of decimal digits that can be represented is roughly eight (E-08 on the end of the second value).
 
 **Implementation/Code:** The following is the code for sMacEps()
+Code for macEps.hpp:
+```
+#pragma once
+#ifndef MACEPS_HPP
+#define MACEPS_HPP
 
+float sMacEps(); //Single Precision Machine Epsilon Function
+double dMacEps(); //Double Precision Machine Epsilon Function
+
+#endif /*MACEPS_HPP*/
+```
+
+Code for sMacEps.cpp:
+```
 #include <iostream>
-#include "macEps.h" //This header contains two functions sMacEps() and dMacEps()
+#include "macEps.hpp" //This header contains two functions sMacEps() and dMacEps()
 
 float sMacEps()
 {
@@ -60,5 +73,16 @@ float sMacEps()
 	}
 	return 0; //This ends the function
 }
+```
 
-**Last Modified:** September/2020
+Code for test_sMacEps.cpp:
+```
+#include <iostream>
+#include "macEps.hpp"
+
+int main()
+{
+	sMacEps(); //Calls the sMacEps function found in sMacEps.cpp
+}
+```
+**Last Modified:** October/2020
