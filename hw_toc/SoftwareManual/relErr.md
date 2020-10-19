@@ -1,32 +1,32 @@
-**Routine Name:** relErr
+**Routine Name:** relErr  
 
-**Author:** Joe Pollock
+**Author:** Joe Pollock  
 
-**Language:** C++. The code can be compiled using the GNU C++ compiler (g++).
+**Language:** C++. The code can be compiled using the GNU C++ compiler (g++).  
 
-For example:
+For example:  
 ```
 g++ relErr.cpp test_relErr.cpp
-```
+```  
 
 will produce an executable **a.exe** or **a.out** that can be executed with the command **./a.exe** or **./a.out**. If you want a different name, the following will name the
-generated executable relativeError:
+generated executable relativeError:  
 ```
 g++ relErr.cpp test_relErr.cpp -o relativeError
 ```
 
-**Description/Purpose:** This code is intended to calculate the relative error when given an exact value and approximate value.
+**Description/Purpose:** This code is intended to calculate the relative error when given an exact value and approximate value.  
 
 **Input:** The test function passes in an exact value (exVal) and an approximate value (apprVal) into the relErr(exVal, apprVal) function
-to calculate the relative error.
+to calculate the relative error.  
 
-**Output:** The output prints the exact value, approximate value given to the code, and the relative error calculated.
+**Output:** The output prints the exact value, approximate value given to the code, and the relative error calculated.  
 
 **Usage/Example:**
 
-In order to use the relErr.cpp source file, I have created a test_relErr.cpp source file that passes in the values presented in the test code.
+In order to use the relErr.cpp source file, I have created a test_relErr.cpp source file that passes in the values presented in the test code.  
 
-Output from the commands above:
+Output from the commands above:  
 ```
 Using the Approximate Value: 0.01
 Using the Exact Value: 0.1
@@ -36,10 +36,10 @@ The Relative Error is: 0.9
 
 The variable exVal is used to insert the exact value calculated. The variables apprVal is used to insert the approximations of the formula in question.
 The header file error.hpp is used to declare absErr and relErr in the same header file, but relErr.cpp is created without absErr.cpp to ensure two separate
-instantiations. The source file test_relErr.cpp can be altered to identify the relative error of a calculation.
+instantiations. The source file test_relErr.cpp can be altered to identify the relative error of a calculation.  
 
-**Implementation/Code:** The following is the code for relErr():
-Code for error.hpp:
+**Implementation/Code:** The following is the code for relErr():  
+Code for error.hpp:  
 ```
 #pragma once
 #ifndef ERROR_HPP
@@ -51,7 +51,7 @@ double relErr(double exVal, double apprVal); //Relative Error Function
 #endif /*ERROR_HPP*/
 ```
 
-Code for relErr.cpp:
+Code for relErr.cpp:  
 ```
 #include <iostream>
 #include <cmath>
@@ -75,7 +75,7 @@ double relErr(double exVal, double apprVal)
 }
 ```
 
-Code for test_relErr.cpp
+Code for test_relErr.cpp:  
 ```
 #include "error.hpp" //Self-created Error header containing Absolute Error and Relative Error Functions
 
@@ -93,4 +93,3 @@ int main()
 ```
 
 **Last Modified:** October/2020
-
