@@ -29,9 +29,9 @@ computer being tested.
 represented. Since the code is written in terms of a C++ subroutine, the values of the machine epsilon and
 the power of two that gives the machine epsilon.  
 
-Output from the commands above results in:  
+Output from the commands above results in the final values:  
 ```
-When Diff = 0, Eps = 1.11022e-16.
+Diff = 0 -- Eps = 1.11022e-16.
 ```
 
 Diff is monitoring the change in epsilon through each iteration. Diff = 0 is the result of Epsilon reaching a very small number
@@ -66,8 +66,7 @@ double dMacEps()
 	{
 		double diff = one - (one + eps);
 		//Prints out Diff and Eps through each loop iteration
-		std::cout << "Diff = " << diff << std::endl;
-		std::cout << "Eps = " << eps << std::endl;
+		std::cout << "Diff = " << diff << " -- Eps = " << eps << std::endl;
 
 		//This if statement checks if diff == 0, returning diff it true and moving along if false
 		if (diff == 0.0) return diff;
