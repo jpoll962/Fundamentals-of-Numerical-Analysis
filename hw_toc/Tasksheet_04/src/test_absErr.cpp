@@ -20,6 +20,6 @@ int main()
 	exVal = 0.1;
 	apprVal = 0.01;
 
-	//Calls absErr(exVal, apprVal) function found in absErr.cpp, connected to this file through error.h
+	//Calls absErr(exVal, apprVal) function found in absErr.cpp
 	absErr(exVal, apprVal);
 }

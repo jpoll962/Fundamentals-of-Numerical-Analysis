@@ -18,7 +18,7 @@ double relErr(double exVal, double apprVal); //Relative Error Function
 
 #endif /*ERROR_HPP*/
 
-/*****Simple code to test the relErr and absErr functions
+/*****Simple code to test the relErr AND absErr functions
  * #include "error.hpp" //Self-created error header containing Absolute Error and Relative Error Functions
  *
  * int main()

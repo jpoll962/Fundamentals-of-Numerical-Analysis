@@ -20,6 +20,6 @@ int main()
 	exVal = 0.1;
 	apprVal = 0.01;
 
-	//Calls relErr(exVal, apprVal) function found in relErr.cpp, connected to this file through Error.h
+	//Calls relErr(exVal, apprVal) function found in relErr.cpp
 	relErr(exVal, apprVal);
 }
