@@ -2,7 +2,7 @@
 
 |                                      Tasksheet #                                                       |                      Software Manual Page                       |
 | :----------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------: |
-| [Tasksheet #03](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_02/Tasksheet_02.pdf) | [sMaceps](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/sMacEps.md) |
+| [Tasksheet #03](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_03/Tasksheet_03.md)  | [sMaceps](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/sMacEps.md) |
 |                                                                                                        | [dMacEps](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/dMacEps.md) |
 | [Tasksheet #04](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_04/Tasksheet_04.md)  | [absErr](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/absErr.md)  |
 |                                                                                                        | [relErr](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/relErr.md)  |
