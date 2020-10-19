@@ -24,7 +24,7 @@ int main()
         pow(10.0L,-9.0L), pow(10.0L,-10.0L), pow(10.0L,-11.0L), pow(10.0L,-12.0L), pow(10.0L,-13.0L),
         pow(10.0L,-14.0L), pow(10.0L,-15.0L), pow(10.0L,-16.0L)};
     long double apprVal [18]; // Array to hold approximate values
-    long double exactVal = -sin(x); // Exact value of equation being approximated
+    long double exactVal = -cos(x); // Exact value of Second Derivative of equation being approximated
 
 
     // Printing Exact Value
@@ -34,7 +34,7 @@ int main()
     for(int i = 0; i < 18; i++)
     {
         // Placing values in apprVal array through each iteration
-        apprVal[i] = ( cos((x) + (h[i])) - 2.0 * cos(x) + cos((x) - (h[i])) ) / ( pow(h[i],2) );
+        apprVal[i] = ( cos(x + h[i]) - 2.0 * cos(x) + cos(x - h[i]) ) / ( h[i] * h[i] );
 
         // Placing values in error array through each iteration
         error[i] = std::fabs(exactVal - apprVal[i]);
