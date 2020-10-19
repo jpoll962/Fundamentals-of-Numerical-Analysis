@@ -8,7 +8,7 @@ For example,
 
     g++ sMacEps.cpp test_sMacEps.cpp
 
-will produce an executable **a.exe** that can be executed with the command **./a.exe**. If you want a different name, the following
+will produce an executable **a.exe** or **a.out** that can be executed with the command **./a.exe** or **./a.out**. If you want a different name, the following
 will name the executable sMachineEpsilon:
 
     g++ sMacEps.cpp test_sMacEps.cpp -o sMachineEpsilon
