@@ -25,17 +25,16 @@ double dMacEps()
 	double one = 1.0;	//One
 	double eps = 1.0;	//Epsilon
 
-	//For Loop to calculate the Machine Epsilon
+	// For Loop to calculate the Machine Epsilon
 	for (int i = 1; i < 1000; i++)
 	{
 		double diff = one - (one + eps);
-		//Prints out Diff and Eps through each loop iteration
-		std::cout << "Diff = " << diff << std::endl;
-		std::cout << "Eps = " << eps << std::endl;
+		// Prints out Diff and Eps through each loop iteration
+		std::cout << "Diff = " << diff << " -- Eps = " << eps << std::endl;
 
-		//This if statement checks if diff == 0, returning diff it true and moving along if false
+		// If statement checks if diff == 0: returns diff if true; moving along if false
 		if (diff == 0.0) return diff;
 		eps = 0.5 * eps;
 	}
-	return 0; //This ends the function
+	return 0; // End
 }

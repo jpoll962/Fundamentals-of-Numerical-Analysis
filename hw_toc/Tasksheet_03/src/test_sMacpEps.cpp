@@ -22,5 +22,6 @@
 
 int main()
 {
-	sMacEps(); //Calls the sMacEps function found in sMacEps.cpp, connected to this file through macEps.hpp
+	sMacEps(); // Calls the sMacEps function found in sMacEps.cpp
+	return 0; // End
 }

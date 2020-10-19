@@ -22,5 +22,7 @@
 
 int main()
 {
-	dMacEps(); //Calls the dMacEps function found in dMacEps.cpp, connected to this file through macEps.hpp
+	dMacEps(); // Calls the dMacEps function found in dMacEps.cpp
+
+	return 0; // End
 }
