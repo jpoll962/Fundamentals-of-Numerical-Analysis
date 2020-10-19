@@ -3,7 +3,7 @@ import numpy as np
 # initialize the exact value of the derivative
 # --------------------------------------------
 aval = 2.0
-exactVal = -np.sin(aval)
+exactVal = -np.cos(aval)
 # set up the arrays for plotting the log-log plot we need
 # -------------------------------------------------------
 x = []
