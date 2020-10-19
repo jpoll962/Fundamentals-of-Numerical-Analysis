@@ -18,7 +18,7 @@ error = []
 h.append(1.0)
 # compute the difference quotient for the increment value
 # -------------------------------------------------------
-dfVal = ( np.cos(aval + h[0]) - 2*np.cos(aval) + np.cos(aval- h[0]) ) / h[0] * h[0]
+dfVal = ( (np.cos(aval + h[0])) - (2*np.cos(aval)) + (np.cos(aval- h[0])) ) / ( h[0] * h[0] )
 error.append(np.abs(exactVal - dfVal))
 # append the log-log point for plotting at the end
 # ------------------------------------------------
@@ -33,16 +33,16 @@ print('The exact derivative value is: ', exactVal)
 l=1
 # the loop over ndiv increments
 # -----------------------------
-ndiv = 18
-while l<18:
+ndiv = 40
+while l<40:
     # append the next increment of h
     # ------------------------------
     h.append(0.5 * h[l-1])
     # compute the numerator and denominator for the difference approximation
     # and compute the approximation from these
     # ----------------------------------------
-    numval = np.cos(aval + h[l]) - 2*np.cos(aval) + np.cos(aval - h[1])
-    denom = h[l] * h[1]
+    numval = np.cos(aval + h[l]) - 2*np.cos(aval) + np.cos(aval - h[l])
+    denom = h[l] * h[l]
     dfVal = numval / denom
     # compute the error in the approximation
     # --------------------------------------
