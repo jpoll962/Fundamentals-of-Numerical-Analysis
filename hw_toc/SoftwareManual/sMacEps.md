@@ -4,14 +4,16 @@
 
 **Language:** C++. The code can be compiled using the GNU C++ compiler (g++).
 
-For example,
-
-    g++ sMacEps.cpp test_sMacEps.cpp
+For example:
+```
+g++ sMacEps.cpp test_sMacEps.cpp
+```
 
 will produce an executable **a.exe** or **a.out** that can be executed with the command **./a.exe** or **./a.out**. If you want a different name, the following
 will name the executable sMachineEpsilon:
-
-    g++ sMacEps.cpp test_sMacEps.cpp -o sMachineEpsilon
+```
+g++ sMacEps.cpp test_sMacEps.cpp -o sMachineEpsilon
+```
 
 **Description/Purpose:** This routine will compute the single precision value for the machine epsilon or the number of digits
 in the representation of real numbers in single precision. This is a routine for analyzing the behavior of any computer. This
