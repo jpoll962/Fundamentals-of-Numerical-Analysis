@@ -5,7 +5,7 @@
   I have created a relErr.cpp file and absErr.cpp file with a shared header file (error.hpp), so they remain separate instances. I have documented both .cpp files in my Software Manual. In addition, I have added the error files to my shared library.
 
 Below is the error.hpp code:
-```
+```C++
 #pragma once
 #ifndef ERROR_HPP
 #define ERROR_HPP
@@ -17,7 +17,7 @@ double relErr(double exVal, double apprVal); //Relative Error Function
 ```
 
 Below is the relErr.cpp code:
-```
+```C++
 #include <iostream>
 #include <cmath>
 #include "error.hpp" //Self-created Error header containing Absolute Error and Relative Error Functions
@@ -41,7 +41,7 @@ double relErr(double exVal, double apprVal)
 ```
 
 Below is the absErr.cpp code:
-```
+```C++
 #include <iostream>
 #include <cmath>
 #include "error.hpp" //Self-created Error header containing Absolute Error and Relative Error Functions
