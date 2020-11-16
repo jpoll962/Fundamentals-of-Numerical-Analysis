@@ -40,7 +40,7 @@ end of the second value).
 
 **Implementation/Code:** The following is the code for dMacEps():  
 Code of macEps.hpp:  
-```
+```C++
 #pragma once
 #ifndef MACEPS_HPP
 #define MACEPS_HPP
@@ -52,7 +52,7 @@ double dMacEps(); //Double Precision Machine Epsilon Function
 ```
 
 Code of dMacEps.cpp:  
-```
+```C++
 #include <iostream>
 #include "macEps.hpp"
 
@@ -77,7 +77,7 @@ double dMacEps()
 ```
 
 Code for test_dMacEps.cpp:  
-```
+```C++
 #include <iostream>
 #include "macEps.hpp"
 
