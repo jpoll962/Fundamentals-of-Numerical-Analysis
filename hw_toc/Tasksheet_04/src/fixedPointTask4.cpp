@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////
-// Name: Fixed Point Iteration Analysis
+// Name: Fixed Point Iteration Analysis for Task 4
 // Author: Joe Pollock
 // Description: Find the root of a given function
 //  through Fixed Point Iteration.
@@ -11,15 +11,17 @@
 #include <cstdlib>
 
 // Define the function
-#define   f(x)   cos(x) - 3 * x + 1
+#define   f(x)   x * std::exp(3 * x * x) - 7 * x
 // Write f(x) as x = g(x) and define g(x) here
-#define   g(x)   ( 1 + cos(x) ) / 3
+#define   g(x)   x + c * ( x * std::exp( 3 * x * x) - 7 * x)
+// Derivative of g(x)
+#define gd(x)   1 + c * ( 6 * x * x + std::exp(3 * x * x) - 7)
 
 int main()
 {
     int iter = 1;
     int max_iter;
-	float x0, x1, error;
+	double x0, x1, error, c;
 
 	// Setting precision and writing floating point values in fixed-point notation.
 	std::cout << std::setprecision(6) << std::fixed;
@@ -38,6 +40,8 @@ int main()
 	std::cout << "-----------------------------" << std::endl;
 	std::cout << "Fixed Point Iteration Method" << std::endl;
 	std::cout << "-----------------------------" << std::endl;
+
+    
 	do
 	{
 	    x1 = g(x0);
