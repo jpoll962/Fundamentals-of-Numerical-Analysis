@@ -12,6 +12,8 @@
   |  **Tasksheet 08**   | [Tasksheet link](https://github.com/jpoll962/math4610/tree/master/hw_toc/Tasksheet_08) |
   |  **Tasksheet 09**   | [Tasksheet link](https://github.com/jpoll962/math4610/tree/master/hw_toc/Tasksheet_09) |
   |  **Tasksheet 10**   | [Tasksheet link](https://github.com/jpoll962/math4610/tree/master/hw_toc/Tasksheet_10) |
+  |  **Tasksheet 11**   | [Tasksheet link](https://github.com/jpoll962/math4610/tree/master/hw_toc/Tasksheet_11) |
+  |  **Tasksheet 12**   | [Tasksheet link](https://github.com/jpoll962/math4610/tree/master/hw_toc/Tasksheet_12) |
   
   |    Projects    | Link to Projects |
   | :------------: | :--------------: |
