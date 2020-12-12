@@ -149,15 +149,8 @@ I have created a routine that calculates the root of a given function by the Fix
 
 The code will be in my software manual. The code is also given below.
 
-The code is as follows: **(Code In-Progress)**
+The code is as follows:
 ```C++
-//////////////////////////////////////////////////
-// Name: Fixed Point Iteration Analysis
-// Author: Joe Pollock
-// Description: Find the root of a given function
-//  through Fixed Point Iteration.
-//////////////////////////////////////////////////
-
 #include<iostream>
 #include<iomanip>
 #include<cmath>
