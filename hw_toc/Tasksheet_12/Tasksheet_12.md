@@ -17,7 +17,7 @@
 
 ## Task 6:
 
-Parallel computing is used on various types of hardware for various reasons. Some of those usecases are gaming, average computer programming, and Artifical Intelligence. The Artificial Intelligence route is heavily emphasized currently as it helps with so many industries. Parallel Programming with OpenACC/CUDA allow these industries to compute data faster and more accurately. This is where technology revolutionizes our society.
+Parallel computing is used on various types of hardware for various reasons. Some of those usecases are gaming, average computer programming, and Artifical Intelligence. The Artificial Intelligence route is heavily emphasized currently as it helps with so many industries. Parallel Programming with OpenACC/CUDA allow these industries to compute data faster and more accurately. This is where technology revolutionizes our society.  
 https://developer.nvidia.com/openacc
 https://www.pgroup.com/resources/docs/18.10/x86/openacc-gs/index.htm
 https://insidehpc.com/2019/12/an-alternative-to-openmp-and-an-on-ramp-to-future-c-standards/
