@@ -74,7 +74,7 @@ I have created a graphics routine in Python for a 2D plot of data that includes:
 * Do note include a title for the graph.
 * Include a legend for the curves.
 
-The code is as follows:			**(Code In-Progress)**
+The code is as follows:
 ```Python
 import matplotlib.pyplot as plt
 import numpy as np
