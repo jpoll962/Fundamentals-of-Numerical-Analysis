@@ -9,7 +9,7 @@ For example:
 g++ [Insert .cpp file(s) being compiled]
 ```
 
-will produce an executable **a.exe** or **a.out** that can be executed with the command **./a.exe** or **./a.out**. If you want a different name, the following will name the
+will produce an executable `a.exe` or `a.out` that can be executed with the command `./a.exe` or `./a.out`. If you want a different name, the following will name the
 generated executable [Insert Title for generated executable]:  
 ```
 g++ [Insert .cpp file(s) being compiled] -o [Insert Title for generated executable executable]
@@ -33,8 +33,9 @@ Output from the commands above:
 [Insert description of the output's variables and values]  
 
 **Implementation/Code:** The following is the code for [Title of Routine]:  
-```
+```C++
 [Insert source code Here]
 ```
 
 **Last Modified:** [Date Last Modified (Month/Year)]
+[Back to Software Manual](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/SoftwareManual_toc.md)

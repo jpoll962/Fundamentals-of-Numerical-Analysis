@@ -9,7 +9,7 @@ For example:
 g++ absErr.cpp test_absErr.cpp
 ```
 
-will produce an executable **a.exe** or **a.out** that can be executed with the command **./a.exe** or **./a.out**. If you want a different name, the following will name the
+will produce an executable `a.exe` or `a.out` that can be executed with the command `./a.exe` or `./a.out`. If you want a different name, the following will name the
 generated executable absoluteError:  
 ```
 g++ absErr.cpp test_absErr.cpp -o absoluteError
@@ -42,7 +42,7 @@ Then the Absolute Error computed is printed.
 
 **Implementation/Code:** The following is the code for absErr():  
 Code for error.hpp:  
-```
+```C++
 #pragma once
 #ifndef ERROR_HPP
 #define ERROR_HPP
@@ -54,7 +54,7 @@ double relErr(double exVal, double apprVal); //Relative Error Function
 ```
 
 Code for absErr.cpp:  
-```
+```C++
 #include <iostream>
 #include <cmath>
 #include "error.hpp" //Self-created Error header containing Absolute Error and Relative Error Functions
@@ -78,7 +78,7 @@ double absErr(double exVal, double apprVal)
 ```
 
 Code for test_absErr.cpp:  
-```
+```C++
 #include "error.hpp" //Self-created Error header containing Absolute Error and Relative Error Functions
 
 int main()

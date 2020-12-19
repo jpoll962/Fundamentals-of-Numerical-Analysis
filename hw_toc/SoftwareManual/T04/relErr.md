@@ -9,7 +9,7 @@ For example:
 g++ relErr.cpp test_relErr.cpp
 ```  
 
-will produce an executable **a.exe** or **a.out** that can be executed with the command **./a.exe** or **./a.out**. If you want a different name, the following will name the
+will produce an executable `a.exe` or `a.out` that can be executed with the command `./a.exe` or `./a.out`. If you want a different name, the following will name the
 generated executable relativeError:  
 ```
 g++ relErr.cpp test_relErr.cpp -o relativeError
@@ -40,7 +40,7 @@ instantiations. The source file test_relErr.cpp can be altered to identify the r
 
 **Implementation/Code:** The following is the code for relErr():  
 Code for error.hpp:  
-```
+```C++
 #pragma once
 #ifndef ERROR_HPP
 #define ERROR_HPP
@@ -52,7 +52,7 @@ double relErr(double exVal, double apprVal); //Relative Error Function
 ```
 
 Code for relErr.cpp:  
-```
+```C++
 #include <iostream>
 #include <cmath>
 #include "error.hpp" //Self-created Error header containing Absolute Error and Relative Error Functions
@@ -76,7 +76,7 @@ double relErr(double exVal, double apprVal)
 ```
 
 Code for test_relErr.cpp:  
-```
+```C++
 #include "error.hpp" //Self-created Error header containing Absolute Error and Relative Error Functions
 
 int main()
