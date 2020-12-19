@@ -2,15 +2,58 @@
 
 |                                      Tasksheet #                                                       |                      Software Manual Page                       |
 | :----------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------: |
-| [Tasksheet #03](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_03/Tasksheet_03.md)  | [sMaceps](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/sMacEps.md) |
-|                                                                                                        | [dMacEps](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/dMacEps.md) |
-| [Tasksheet #04](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_04/Tasksheet_04.md)  | [absErr](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/absErr.md)  |
-|                                                                                                        | [relErr](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/relErr.md)  |
-| [Tasksheet #05](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_05/Tasksheet_05.md)  | |
-| [Tasksheet #06](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_06/Tasksheet_06.md)  | |
-| [Tasksheet #07](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_07/Tasksheet_07.md)  | |
-| [Tasksheet #08](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_08/Tasksheet_08.md)  | |
-| [Tasksheet #09](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_09/Tasksheet_09.md)  | |
-| [Tasksheet #10](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_10/Tasksheet_10.md)  | |
-| [Tasksheet #11](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_10/Tasksheet_11.md)  | |
-| [Tasksheet #12](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_10/Tasksheet_12.md)  | |
+| [Tasksheet #03](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_03/Tasksheet_03.md)  | [sMaceps](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T03/sMacEps.md) |
+|                                                                                                        | [dMacEps](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T03/dMacEps.md) |
+| [Tasksheet #04](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_04/Tasksheet_04.md)  | [absErr](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T04/absErr.md)  |
+|                                                                                                        | [relErr](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T04/relErr.md)  |
+|                                                                                                        | [2Dplot](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T04/2Dplot.md) |
+|                                                                                                        | [bisectionMethod](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T04/bisectionMethod.md) |
+|                                                                                                        | [fixedPointIteration](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T04/fixedPointIteration.md) |
+| [Tasksheet #05](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_05/Tasksheet_05.md)  | [hybridMethod_B_N](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T05/hybridMethod_B_N.md) |
+|                                                                                                        | [newtonsMethod](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T05/newtonsMethod.md) |
+|                                                                                                        | [secantMethod](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T05/secantMethod.md) |
+| [Tasksheet #06](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_06/Tasksheet_06.md)  | [hybridMethod_S_](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T06/hybridMethod_S_.md) |
+| [Tasksheet #07](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_07/Tasksheet_07.md)  | [genDiagMatrix](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T07/genDiagMatrix.md) |
+|                                                                                                        | [inMatrix](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T07/inMatrix.md) |
+|                                                                                                        | [lowerTri](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T07/lowerTri.md) |
+|                                                                                                        | [lowerTriSol](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T07/lowerTriSol.md) |
+|                                                                                                        | [matrixInit](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T07/matrixInit.md) |
+|                                                                                                        | [matrixTrans](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T07/matrixTrans.md) |
+|                                                                                                        | [redRowEch](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T07/redRowEch.md) |
+|                                                                                                        | [upperTri](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T07/upperTri.md) |
+|                                                                                                        | [upperTriSol](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T07/upperTriSol.md) |
+| [Tasksheet #08](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_08/Tasksheet_08.md)  | [forwardSub](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T08/forwardSub.md) |
+|                                                                                                        | [gauElim](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T08/GauElim.md) |
+|                                                                                                        | [LUfact](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T08/LUfact.md) |
+|                                                                                                        | [scaledPartPivot](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T08/scaledPartPivot.md) |
+| [Tasksheet #09](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_09/Tasksheet_09.md)  | [dotProduct](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T09/dotProduct.md) |
+|                                                                                                        | [err_1Norm](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T09/err_1Norm.md) |
+|                                                                                                        | [err_2Norm](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T09/err_2Norm.md) |
+|                                                                                                        | [err_infNorm](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T09/err_infNorm.md) |
+|                                                                                                        | [jacobiIteration](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T09/jacobiIteration.md) |
+|                                                                                                        | [mag_1Norm](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T09/mag_1Norm.md) |
+|                                                                                                        | [mag_2Norm](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T09/mag_2Norm.md) |
+|                                                                                                        | [mag_infNorm](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T09/mag_infNorm.md) |
+|                                                                                                        | [matrixAdd](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T09/matrixAdd.md) |
+|                                                                                                        | [matrixSub](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T09/matrixSub.md) |
+|                                                                                                        | [outerProduct](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T09/outerProduct.md) |
+|                                                                                                        | [recMat_recMat_Mult](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T09/recMat_recMatMult.md) |
+|                                                                                                        | [recMat_Vec_Mult](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T09/recMat_Vec_Mult.md) |
+|                                                                                                        | [scalarMultMatrix](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T09/scalarMultMatrix.md) |
+|                                                                                                        | [scalarMultVector](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T09/scalarMultVector.md) |
+|                                                                                                        | [transMatrix](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T09/transMatrix.md) |
+|                                                                                                        | [vecAdd](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T09/vecAdd.md) |
+|                                                                                                        | [vecSub](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T09/vecSub.md) |
+| [Tasksheet #10](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_10/Tasksheet_10.md)  | [1MatNorm](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T10/1MatNorm.md) |
+|                                                                                                        | [infMatNorm](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T10/infMatNorm.md) |
+|                                                                                                        | [invPowerMethod](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T10/invPowerMethod.md) |
+|                                                                                                        | [powerMethod](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T10/powerMethod.md) |
+|                                                                                                        | [sqMat_2CondNum](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T10/sqMat_2CondNum.md) |
+| [Tasksheet #11](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_10/Tasksheet_11.md)  | [OpenMP_matAdd](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T11/OpenMP_matAdd.md) |
+|                                                                                                        | [OpenMP_matMat](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T11/OpenMP_matMat.md) |
+|                                                                                                        | [OpenMP_Proc](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T11/OpenMP_Proc.md) |
+|                                                                                                        | [OpenMP_vecAdd](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T11/OpenMP_vecAdd.md) |
+| [Tasksheet #12](https://github.com/jpoll962/math4610/blob/master/hw_toc/Tasksheet_10/Tasksheet_12.md)  | [OpenMP_2NormCondNum](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T12/OpenMP_2NormCondNum.md) |
+|                                                                                                        | [OpenMP_JacobiIteration](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T12/OpenMP_JacobiIteration.md) |
+|                                                                                                        | [OpenMP_matVecMult](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T12/OpenMP_matVecMult.md) |
+|                                                                                                        | [OpenMP_PowerMethod](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/T12/OpenMP_PowerMethod.md) |
