@@ -1,4 +1,4 @@
-**Routine Name:** [Title of Routine]  
+**Routine Name:** hybridMethod_B_N  
 
 **Author:** Joe Pollock  
 

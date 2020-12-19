@@ -1,4 +1,4 @@
-**Routine Name:** [Title of Routine]  
+**Routine Name:** mag_1Norm  
 
 **Author:** Joe Pollock  
 

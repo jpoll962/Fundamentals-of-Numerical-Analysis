@@ -1,4 +1,4 @@
-**Routine Name:** [Title of Routine]  
+**Routine Name:** OpenMP_matMat  
 
 **Author:** Joe Pollock  
 

@@ -1,4 +1,4 @@
-**Routine Name:** [Title of Routine]  
+**Routine Name:** recMat_Vec_Mult  
 
 **Author:** Joe Pollock  
 

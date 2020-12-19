@@ -1,4 +1,4 @@
-**Routine Name:** [Title of Routine]  
+**Routine Name:** powerMethod  
 
 **Author:** Joe Pollock  
 

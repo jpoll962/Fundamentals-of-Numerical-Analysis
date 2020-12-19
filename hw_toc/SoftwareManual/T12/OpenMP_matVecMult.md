@@ -1,4 +1,4 @@
-**Routine Name:** [Title of Routine]  
+**Routine Name:** OpenMP_matVecMult  
 
 **Author:** Joe Pollock  
 

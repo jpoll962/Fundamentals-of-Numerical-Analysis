@@ -1,4 +1,4 @@
-**Routine Name:** [Title of Routine]  
+**Routine Name:** err_infNorm  
 
 **Author:** Joe Pollock  
 
