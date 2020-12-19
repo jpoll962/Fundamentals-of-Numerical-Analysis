@@ -9,7 +9,7 @@ For example:
 g++ dMacEps.cpp test_dMacEps.cpp
 ```
 
-will produce an executable **a.exe** or **a.out** that can be executed with the command **./a.exe** or **./a.out**. If you want a different name,
+will produce an executable `a.exe` or `a.out` that can be executed with the command `./a.exe` or `./a.out`. If you want a different name,
 the following will name the executable dMachineEpsilon:  
 ```
 g++ dMacEps.cpp test_dMacEps.cpp -o dMachineEpsilon
@@ -87,4 +87,5 @@ int main()
 }
 ```
 
-**Last Modified:** October/2020
+**Last Modified:** October/2020  
+[Back to Software Manual](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/SoftwareManual_toc.md)
