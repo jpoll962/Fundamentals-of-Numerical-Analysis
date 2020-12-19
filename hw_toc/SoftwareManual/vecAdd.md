@@ -8,11 +8,11 @@ Language: C++. The code can be compiled using the GNU C++ compiler (g++).
 
 For example:
 
-g++ vecAdd.cpp
+`g++ vecAdd.cpp`
 
-will produce an executable a.exe or a.out that can be executed with the command ./a.exe or ./a.out. If you want a different name, the following will name the executable vecAddition:
+will produce an executable `a.exe` or `a.out` that can be executed with the command `./a.exe` or `./a.out`. If you want a different name, the following will name the executable vecAddition:
 
-g++ vecAdd.cpp  -o vecAddition
+`g++ vecAdd.cpp  -o vecAddition`
 
 Description/Purpose: This routine will add two vectors together as defined in the code.
 
@@ -24,7 +24,7 @@ Usage/Example: The routine is used to compute the addition of two vectors.
 
 Output from the commands above results in the final values:
 
-The New Vector is <55, 736, 832>.
+`The New Vector is <55, 736, 832>.`
 
 Vect is a class used to overload the addition operator to allow for vector addition. The print function is to tell the compiler how to print the newly calculated vector.
 
