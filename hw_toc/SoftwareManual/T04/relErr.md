@@ -93,3 +93,4 @@ int main()
 ```
 
 **Last Modified:** October/2020
+[Back to Software Manual](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/SoftwareManual_toc.md)
