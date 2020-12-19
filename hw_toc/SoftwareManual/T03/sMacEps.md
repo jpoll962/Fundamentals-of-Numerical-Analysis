@@ -9,7 +9,7 @@ For example:
 g++ sMacEps.cpp test_sMacEps.cpp
 ```
 
-will produce an executable **a.exe** or **a.out** that can be executed with the command **./a.exe** or **./a.out**. If you want a different name, the following
+will produce an executable `a.exe` or `a.out` that can be executed with the command `./a.exe` or `./a.out`. If you want a different name, the following
 will name the executable sMachineEpsilon:  
 ```
 g++ sMacEps.cpp test_sMacEps.cpp -o sMachineEpsilon
@@ -39,7 +39,7 @@ for the Machine being used. The number of decimal digits that can be represented
 
 **Implementation/Code:** The following is the code for sMacEps():  
 Code for macEps.hpp:  
-```
+```C++
 #pragma once
 #ifndef MACEPS_HPP
 #define MACEPS_HPP
@@ -51,7 +51,7 @@ double dMacEps(); //Double Precision Machine Epsilon Function
 ```
 
 Code for sMacEps.cpp:  
-```
+```C++
 #include <iostream>
 #include "macEps.hpp" //This header contains two functions sMacEps() and dMacEps()
 
@@ -76,7 +76,7 @@ float sMacEps()
 ```
 
 Code for test_sMacEps.cpp:  
-```
+```C++
 #include <iostream>
 #include "macEps.hpp"
 
@@ -86,4 +86,5 @@ int main()
 }
 ```
 
-**Last Modified:** October/2020
+**Last Modified:** October/2020  
+[Back to Software Manual](https://github.com/jpoll962/math4610/blob/master/hw_toc/SoftwareManual/SoftwareManual_toc.md)
