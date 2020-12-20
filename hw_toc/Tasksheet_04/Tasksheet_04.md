@@ -210,11 +210,10 @@ int main()
 
 ## Task 4:
 
-
+I will be performing a fixed point iteration to find the closest root to zero of the function assign in Tasksheet 4. In order to test the idea, I will use x = x - f(x).
+Afterward, I will try x = x - c * f(x) where c is chosen to get convergence of the sequence of approximations. The convergence criterion for linear convergence is |x <sub>k</sub> - x<sup>\*</sup>) | <= c * |x <sub>k-1</sub> - x <sup>\*</sup> | as long as c < 1.
 
 ## Task 5:
-
-
 
 ## Task 6:
 
