@@ -32,7 +32,8 @@ class Vect
 
 int main()
 {
-    double a = 11, b = 236, c = 213, d = 44, e = 500, f = 619;
+    double a = 1, b = 6, c = 2;
+    double d = 4, e = 5, f = 9;
 
     Vect v1(a, b, c), v2(d, e, f);
     Vect v3 = v1 + v2;
