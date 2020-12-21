@@ -531,7 +531,10 @@ The error between the two vectors is (L^inf Norm): 7
 
 ### Matrix Addition
 
+
 ### Matrix Subtraction
+
+
 
 ### Scalar Multiplication for a Matrix
 
@@ -540,6 +543,54 @@ The error between the two vectors is (L^inf Norm): 7
 ### Product of a Rectangular Matrix and Vector
 
 ### Product of Two Rectangular Matrices
+
+```C++
+#include <bits/stdc++.h>
+
+void multiply(int m1, int m2, int mat1[][2], int n1, int n2, int mat2[][2])
+{
+    int x, i, j;
+    int res[m1][n2];
+    for (i = 0; i < m1; i++)
+    {
+        for (j = 0; j < n2; j++)
+        {
+            res[i][j] = 0;
+            for (x = 0; x < m2; x++)
+            {
+                *(*(res + i) + j) += *(*(mat1 + i) + x) * *(*(mat2 + x) + j);
+            }
+        }
+    }
+    for (i = 0; i < m1; i++) 
+    {
+        for (j = 0; j < n2; j++) 
+        {
+            std::cout << *(*(res + i) + j) << " ";
+        }
+        std::cout << std::endl;
+    }
+}
+
+int main()
+{
+    int mat1[][2] = { { 2, 4 }, { 3, 4 } };
+    int mat2[][2] = { { 1, 2 }, { 1, 3 } };
+    int m1 = 2, m2 = 2, n1 = 2, n2 = 2;
+   
+    multiply(m1, m2, mat1, n1, n2, mat2);
+    return 0;
+}
+```
+
+The Output is:  
+```
+Result matrix is:
+10 10 10 10
+20 20 20 20
+30 30 30 30
+40 40 40 40
+```
 
 ## Task 4:
 
