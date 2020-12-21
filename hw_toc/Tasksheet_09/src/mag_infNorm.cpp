@@ -1,7 +1,6 @@
-#include <iostream>
-#include <cmath>
+#include "all.hpp"
 
-int main()
+double LinfMag()
 {
     double vect[3] = {1, 5, 10};
     double mag, temp;
@@ -20,7 +19,10 @@ int main()
         }
     }
 
-    std::cout << "The magnitude of the vector (L^inf Norm Version) is: " << mag << std::endl;
+    return mag;
+}
 
-    return 0;
+void LinfPrint(double magnitude)
+{
+    std::cout << "The magnitude of the vector (L^inf Norm Version) is: " << magnitude << std::endl;
 }

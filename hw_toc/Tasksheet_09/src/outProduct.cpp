@@ -1,6 +1,6 @@
-#include <iostream>
+#include "all.hpp"
 
-int main()
+void outProduct()
 {
     double matrix[3][3];
     double vec1[3] = {1,2,3}; // Vertical Matrix
@@ -14,11 +14,12 @@ int main()
             }
         }
 
+#if 1
     std::cout << "The Resulting Matrix is: " << std::endl;
     for (int i = 0; i < 3; i++)
     {
         std::cout << "| " << matrix[i][0] << " " << matrix[i][1] << " " << matrix[i][2] << " |" << std::endl;   // Print Matrix to screen
     }
+#endif
 
-    return 0;
 }

@@ -1,33 +1,15 @@
-#include <iostream>
+#include "all.hpp"
 
-class Vect
+Vect vecScalMult()
 {
-    private:
-        double one, two, three, scalar;
-    public:
-        Vect(double o = 0, double  tw = 0, double th = 0, double s = 0)
-        {
-            one = o;
-            two = tw;
-            three = th;
-            scalar = s;
-        }
+    double a = 1, b = 6, c = 2; // Vector Values
+    double s = 5; // Scalar
 
-        void print()
-        {
-            std::cout << "The New Vector is ";
-            std::cout << "<" << scalar * one << ", " << scalar * two << ", " << scalar * three << ">" << std::endl;
-        }
-};
+    a = a * s;
+    b = b * s;
+    c = c * s;
 
-int main()
-{
-    double a = 1, b = 6, c = 2;
-    double s = 5;
+    Vect v(a, b, c, s);
 
-    Vect v1(a, b, c, s);
-
-    v1.print();
-
-    return 0;
+    return v;
 }
