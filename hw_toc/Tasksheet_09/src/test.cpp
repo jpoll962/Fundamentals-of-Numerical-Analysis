@@ -68,7 +68,7 @@ int main()
 #endif
 
     // Error between vectors - L^inf Norm Version
-#if 1
+#if 0
     double err = LinfErr();
     LinfErrPrint(err);
 #endif
