@@ -1,14 +1,3 @@
-# ________________________________________________________
-#  Requirements for 2D Plot of Data:
-# --------------------------------------------------------
-# - Graph string expressions in Python Module
-# - Include a Loop to graph multiple expressions
-# - Use different colors for the graphs of the functions
-# - Hardcode axes labels
-# - Do not include a title for the graph
-# - Include a legend for the curves
-# _________________________________________________________
-
 import matplotlib.pyplot as plt
 import numpy as np
 
