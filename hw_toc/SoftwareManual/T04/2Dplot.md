@@ -16,7 +16,7 @@ python3 2Dplot.py
 **Output:** The output of this code presents a graph based on the equation you have provided it.  
 
 **Implementation/Code:** The following is the code for [Title of Routine]:  
-```C++
+```Python
 # ________________________________________________________
 #  Requirements for 2D Plot of Data:
 # --------------------------------------------------------
