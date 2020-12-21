@@ -15,19 +15,8 @@ python3 2Dplot.py
 
 **Output:** The output of this code presents a graph based on the equation you have provided it.  
 
-**Implementation/Code:** The following is the code for [Title of Routine]:  
+**Implementation/Code:** The following is the code for 2Dplot.py:  
 ```Python
-# ________________________________________________________
-#  Requirements for 2D Plot of Data:
-# --------------------------------------------------------
-# - Graph string expressions in Python Module
-# - Include a Loop to graph multiple expressions
-# - Use different colors for the graphs of the functions
-# - Hardcode axes labels
-# - Do not include a title for the graph
-# - Include a legend for the curves
-# _________________________________________________________
-
 import matplotlib.pyplot as plt
 import numpy as np
 
